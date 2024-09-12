@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -68,10 +68,8 @@ a {
   gap: 40px;
   margin: 3rem;
 }
-progress{
+progress {
   width: 100%;
-
-
 }
 .right-hero-container a {
   color: #053582;
@@ -124,19 +122,26 @@ progress{
   flex-direction: column;
   width: 416px;
   height: 48px;
-  padding: 1rem
-} 
-.password{
+  padding: 1rem;
+}
+.password-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.password {
   width: 416px;
   padding: 1rem;
+}
+
+.password-wrapper{
   position: relative;
 }
-.eye{
+.fa-regular{
   position: absolute;
- right: 16rem;
- bottom: 6.5rem;
- width: 1rem;
- height: 1rem;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
 }
 .sign-in {
   display: flex;
