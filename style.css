@@ -155,11 +155,15 @@ progress {
   width: 227.876px;
 }
 
-/* @media (max-width: 1300px) {
+@media (max-width: 1300px) {
   .hero-container {
     display: flex;
     flex-direction: column;
+    
   }
+      .left-hero-container {
+   margin-bottom: 5rem;
+     }
 }
 @media (max-width: 850px) {
   .left-hero-container h4 {
@@ -184,9 +188,46 @@ progress {
     width: 400px;
   }
   .right-hero-container {
-    width: 350px;
-    margin-right: 0;
+
+    margin: 0;
   }
+}
+@media (max-width: 600px) {
+     .right-hero-container {
+    width: 450px;
+     }
+ 
+  .info-container {
+    width: 350px;
+  }
+  .forms {
+    width: 350px;
+  }
+  .password{
+    width: 350px;
+  }
+  .formz {
+    width: 350px;
+  }
+  .formz input {
+    width: 350px;
+  }
+  
+  .info-container p {
+    width: 380px;
+  }
+  .sign-in {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+  }
+}
+@media (max-width: 520px) {
+     .right-hero-container {
+    width: 370px;
+     }
   .info-container {
     width: 270px;
   }
@@ -202,9 +243,7 @@ progress {
   .formz input {
     width: 270px;
   }
-  .right-hero-container > img {
-    width: 270px;
-  }
+  
   .info-container p {
     width: 300px;
   }
@@ -212,11 +251,63 @@ progress {
     display: flex;
     flex-direction: column;
     gap: 20px;
+   
+    
   }
 }
-@media (max-width: 450px) {
-  body {
-    margin: 1rem;
-    margin-left: 1rem;
+@media (max-width: 430px) {
+     .right-hero-container {
+    width: 300px;
+     }
+  .info-container {
+    width: 200px;
   }
-} */
+  .forms {
+    width: 200px;
+  }
+  .password{
+    width: 200px;
+  }
+  .formz {
+    width: 200px;
+  }
+  .formz input {
+    width: 200px;
+  }
+  
+  .info-container p {
+    width: 230px;
+    font-size: .8rem;
+  }
+  .sign-in {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   justify-content: center;
+    
+  }
+  .top-right-hero-container h3{
+    font-size: 1.2rem;
+  }
+  .top-right-hero-container p{
+    font-size: .8rem;
+  }
+.left-hero-container {
+ 
+}
+.left-hero-container img {
+  width: 127px;
+  height: 127px;
+}
+.left-hero-container h4 {
+  width: 90%;
+  font-size: 30px;
+}
+.left-hero-container p {
+  width: 90%;
+  
+}
+.left-hero-container button {
+  width: 90%;
+}
+}

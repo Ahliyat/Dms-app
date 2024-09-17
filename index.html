@@ -40,26 +40,26 @@
           <h3 style="font-size: 28px; font-weight: 700; color: #393939">
             Basic Information
           </h3>
-          <p style="font-size: 12px; font-weight: 400; color: #404040">
+          <p style="font-size: 14px; font-weight: 400; color: #404040">
             Enter the following information below
           </p>
         </div>
         <section class="info-container">
           <form class="formz">
-            <input type="text" placeholder="Company Name" />
-            <input type="text" placeholder="Last Name" />
+            <input type="text"id="company-name" placeholder="Company Name" />
+            <input type="text"id="lastname" placeholder="Last Name" />
           </form>
           <form>
-            <input class="forms" type="text" placeholder="Company Address" />
+            <input class="forms" type="text"id="address" placeholder="Company Address" />
           </form>
           <form>
-            <input class="forms" type="text" placeholder="Phone Number" />
+            <input class="forms" type="text"id="phone-number" placeholder="Phone Number" />
           </form>
           <form>
             <input
               class="forms"
-              type="text"
-              placeholder="Company Email Address"
+              type="email"
+             id="email" placeholder="Company Email Address"
             />
           </form>
           <form>
@@ -68,13 +68,13 @@
               class="password"
               type="password"
               id="password"
-              placeholder="Enter Password"
+             id="password" placeholder="Enter Password"
             />
             <span class="fa-regular fa-eye" id="fa-eye"></span>
             <span class="fa-regular fa-eye-slash" id="fa-eye-slash"></span>
           </section>
           </form>
-          <p>
+          <p style="font-size: 14px;">
             By clicking "Next" you agree to our
             <a href="">Terms of Service, Privacy Policy</a>, and to receive
             marketing communications from Envoy.
@@ -82,14 +82,14 @@
         </section>
         <div class="sign-in">
           <p>Got an account? <a href="./login.html">Sign in</a></p>
-          <a href="./login.html">
-            <button>Register</button>
-          </a>
+          <!-- <a href="./login.html"> -->
+            <button id="reg-btn">Register</button>
+          <!-- </a> -->
         </div>
       </main>
     </header>
     <!-- HERO SECTION  -->
-
+    <script src="./sweetAlert.js"></script>
      <script src="./app.js"></script>
   </body>
 </html>

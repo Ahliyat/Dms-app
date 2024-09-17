@@ -21,7 +21,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  text-align: center;
+  gap: 3rem;
 }
 .left-hero-container {
   display: flex;
@@ -56,8 +57,8 @@ a {
   border-radius: 10px;
 }
 .right-hero-container {
-  display: inline-flex;
-  padding: 48px;
+  display: flex;
+  padding: 40px;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
@@ -98,15 +99,14 @@ a {
 .right-hero-container a{
   color: #053582;
 }
-.password-wrapper {
+.password-wrapper{
   position: relative;
 }
-.eye {
+.fa-regular{
   position: absolute;
-  right: 12rem;
- bottom: 21.5rem;
-  width: 20px;
-  height: 20px;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
 }
 .fpw{
   display: flex;
@@ -142,66 +142,123 @@ a {
     flex-direction: column;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 650px) {
   .left-hero-container h4 {
     width: 500px;
   }
   .left-hero-container p {
     width: 400px;
   }
-  .right-hero-container {
-    width: 400px;
-  }
-  .right-hero-container input {
-    width: 320px;
-  }
-  .right-hero-container a {
-    width: 320px;
-  }
-  .login {
-    width: 320px;
-  }
+  
 }
-@media (max-width: 550px) {
-  .left-hero-container h4 {
-    width: 400px;
+@media (max-width: 570px) {
+   .left-hero-container h4 {
+    width: 450px;
   }
   .left-hero-container p {
     width: 350px;
   }
-  .right-hero-container {
-    width: 350px;
+.right-hero-container {
+    width: 450px;
+   justify-content: center;
+   align-items: center;
+
+  }
+  .right-hero-container h4{
+   text-align: left;
+  }
+  .right-hero-container p{
+   text-align: left;
+ 
   }
   .right-hero-container input {
-    width: 280px;
-  }
-  .right-hero-container a {
-    width: 280px;
+    width: 370px;
+   }
+   .fpw {
+   align-self: start;
   }
   .login {
-    width: 280px;
+    width: 370px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .left-hero-container h4 {
-    width: 350px;
+    width: 400px;
   }
   .left-hero-container p {
-    width: 320px;
-  }
-  .right-hero-container {
     width: 300px;
   }
+  .right-hero-container {
+    width: 380px;
+  }
   .right-hero-container input {
-    width: 220px;
+    width: 300px;
   }
-  .right-hero-container a {
-    width: 220px;
+ 
+  .login {
+    width: 300px;
   }
+}
+@media (max-width: 430px) {
+  .left-hero-container h4 {
+    width: 90%;
+    font-size: 30px;
+  }
+  .left-hero-container p {
+    width: 90%;
+  }
+  .right-hero-container {
+    width: 330px;
+  }
+  .right-hero-container input {
+    width: 250px;
+  }
+ 
   .login {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 250px;
+  }
+  .login button{
+   
+    width: 140px;
+  }
+}
+@media (max-width: 380px) {
+ 
+  .right-hero-container {
+    width: 280px;
+  }
+  .right-hero-container h4{
+   font-size: 25px;
+  }
+  .right-hero-container input {
+    width: 220px;
+  }
+}
+@media (max-width: 330px) {
+ 
+  .right-hero-container {
+    width: 250px;
+  }
+  .right-hero-container h4{
+    font-size: 22px;
+ text-align: center;
+ width: 200px
+  }
+  .right-hero-container p{
+ text-align: center;
+ width: 200px;
+  }
+  .right-hero-container input {
+    width: 220px;
+  }
+   .login {
     width: 200px;
+  }
+  .login button{
+   
+    width: 120px;
   }
 }
