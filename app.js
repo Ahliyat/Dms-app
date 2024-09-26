@@ -1,4 +1,4 @@
-let password = document.getElementById("password");
+ let password = document.getElementById("password");
 console.log(password)
 let eye = document.getElementById("fa-eye");
 const submitButton = document.getElementById("reg-btn");
